@@ -724,7 +724,8 @@ table {
 .rooms__list {
   display: grid;
   grid-template-columns: repeat(auto-fit, 309px);
-  gap: 40px; }
+  gap: 40px;
+  justify-content: center; }
 
 .rooms__list__item {
   position: relative;
