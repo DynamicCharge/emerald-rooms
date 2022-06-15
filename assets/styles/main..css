@@ -796,5 +796,69 @@ table {
   margin-top: 15px;
   transition: all .3s ease-in-out; }
 
+.section-rooms-main {
+  margin-top: 300px; }
+
+.section-rooms__wrap {
+  position: relative; }
+
+.section-rooms__heading {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 60px;
+  text-align: center;
+  color: #75685D;
+  margin-bottom: 50px; }
+
+.section-rooms__desc {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 20px;
+  /* or 91% */
+  text-align: center;
+  /* main 1 */
+  color: #75685D;
+  max-width: 887px;
+  margin: 0 auto 60px; }
+
+.section-rooms__arrows {
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+.section-rooms__slider__item {
+  position: relative;
+  background-image: url(../../assets/img/item1..jpg);
+  background-image: url(../../assets/img/item2..jpg);
+  background-image: url(../../assets/img/item3..jpg);
+  background-image: url(../../assets/img/item4..jpg);
+  background-image: url(../../assets/img/item5..jpg);
+  background-image: url(../../assets/img/item6..jpg);
+  background-image: url(../../assets/img/item7..jpg);
+  background-image: url(../../assets/img/item8..jpg);
+  background-image: url(../../assets/img/item9..jpg);
+  background-image: url(../../assets/img/item10..jpg);
+  background-image: url(../../assets/img/item11..jpg);
+  background-image: url(../../assets/img/item12..jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 540px;
+  padding: 0 24px 20px;
+  display: flex !important;
+  justify-content: end;
+  align-items: flex-end;
+  overflow: hidden;
+  margin: 0 20px; }
+  .section-rooms__slider__item:hover .rooms__list__item__link {
+    height: auto;
+    padding: 9px 15px;
+    color: #fff;
+    background: #478F55; }
+
 
 /*# sourceMappingURL=main..css.map*/
